@@ -1,3 +1,5 @@
+package array_Easy;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -12,9 +14,7 @@ public class twoSum {
 
         for(int i=0; i< nums.length;i++){
             int value = target - nums[i];
-
             if(data.containsKey(value)){
-                System.out.println(Arrays.toString(new int[]{data.get(value), i}));
                 return new int[]{data.get(value),i};
             }else {
                 data.put(nums[i],i);
