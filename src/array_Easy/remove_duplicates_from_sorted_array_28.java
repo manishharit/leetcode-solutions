@@ -1,7 +1,6 @@
 package array_Easy;
 
-import java.util.HashMap;
-import java.util.Map;
+
 
 public class remove_duplicates_from_sorted_array_28 {
     public static void main(String[] args) {removeDuplicates(new int[]{1,2,2,3,4,5,5,8});}
