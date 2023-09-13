@@ -1,4 +1,4 @@
-package array_Easy;
+package array;
 
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package array_Easy;
+package array;
 
 public class Fibonacci_number_509 {
     public static void main(String[] args) {
